@@ -1,0 +1,41 @@
+body {
+	
+	background: url('images/cover-web.jpg')no-repeat center center fixed;
+	background-size:cover;
+
+}
+
+#title {position: absolute;
+bottom:55%;
+left:25%;
+width:50%;
+text-align:center;
+border:  none;
+}
+
+
+a:link {
+font-family: "Garamond", serif;
+color: white;
+font-size: 72px;
+text-decoration:none;
+
+}
+
+a:visited {
+color: white;
+font-size: 72px;
+text-decoration:none;
+
+
+}
+
+a:hover {
+color: white;
+text-decoration:underline;
+}
+
+a:active {
+color: red;
+text-decoration:underline;
+}
