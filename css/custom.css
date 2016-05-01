@@ -1,0 +1,235 @@
+ /* CSS Document */
+
+/* development helper style */
+
+.col {
+    background: transparent;
+    box-sizing: border-box;
+}
+
+footer .col {background:none!important}
+
+/* main styles */
+
+
+body {
+    font-family: "Crimson Text", serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 12px;
+    background-color:#fbfbfb;
+    color:#666;
+}
+
+
+footer {height:147px;
+background: #fbfbfb;   
+ border-top: 1px solid #bebebe;
+    }
+    
+footer .section{width:90%;
+margin: 3.5em auto;
+    
+}
+
+
+footer p{padding:5px; text-decoration: none;
+    text-transform: uppercase;
+    font-size: .9em;
+    letter-spacing: 2px;
+    color: grey;
+text-align: center;}
+
+footer p span{
+    font-family:oswald,sans-serif;
+    font-size:1.25em;
+    font-weight:300;
+    letter-spacing:2px;
+    font-style: normal;
+    color:#222;
+}
+
+
+/*about styles */
+
+#container-about {background-color: #ededed;
+}
+
+#content {
+    min-height: 600px;
+    max-width: 2560px;
+    margin: 0 auto;
+    
+}
+
+.about-space {
+    text-align: center;
+}
+
+
+.about .about-header {
+    max-width: 530px;
+    padding-top: 5em;
+    padding-bottom:4em;
+    margin: 0 auto;
+    background-color:transparent;
+}
+
+.about .about-header h2 {
+    font-weight: 300;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 3px;
+    text-align:center;
+}
+
+.about .about-header hr {
+    width: 300px;
+    margin: 20px auto;
+    background-color: #ccc;
+    border: 0;
+    height: 1px;
+    box-sizing: content-box
+}
+
+
+
+.about .about-header p {
+    font-weight: 300;
+    font-size: 1.2em;
+    font-style: italic;
+    line-height: 1.5;
+    text-align:center;
+
+    
+}
+
+
+.about-banner-image {background-color:#E1E1E1;
+    background-image: url("bebebe.jpg"); 
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-attachment: scroll;/* or fixed*/     
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    width:100%;
+height:300px;
+margin-bottom:.5em auto;
+}
+
+
+
+.about-banner-image {
+    position: relative;
+}
+
+.about-banner-image img {
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+    width:100%;
+}
+
+.about-banner-image a {
+    position: absolute;
+    top: 5%;
+    left:20%;
+    text-decoration: none;
+}
+
+
+
+
+.about-overlay:hover {
+    background-color: #e6e6e6;
+}
+
+
+.about-overlay {
+    text-align: center;
+    max-width:100%;
+    width: 20em;
+    height: 20em;
+    border-radius: 150%;
+    background: rgba(255,255,255,.8);
+}
+
+
+.about-overlay h2 { 
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-top: 65px;
+    color: #2b2b2b;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.about-overlay p {
+    margin-top: 0px;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: #2b2b2b;
+    line-height: 1.8;
+    margin-bottom: 1.5em;
+}
+
+.about-overlay p span {text-transform: none;
+font-size:13px; font-style:italic;}
+
+.grid-wrapper {
+    width: 100%;
+    max-width: 900px;
+    margin: 5% auto;
+    margin-top:1em;
+    margin-bottom:2em;
+    
+}
+
+.grid-item {
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+    border: #ededed 8px solid;
+    background-color: #fbfbfb;
+    text-align: center;
+    padding: 4%;
+    color: #999;
+     transition: all .3s ease-out;
+}
+
+@media only screen and (max-width: 767px) {
+.grid-item {
+    width:100%;
+   }
+}
+
+.grid-item h3 {
+    font-weight: 300;
+    font-size: .9em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 5px;
+    color: #666;
+    line-height: 1.5;
+}
+
+
+.grid-item p {
+    font-size: 1.2em;
+    color: #666;
+    margin: 0;
+    font-style: italic;
+    line-height: 1.5;
+    text-transform: lowercase;
+}
+
+
+
+.grid-item:hover {
+    background-color: #e6e6e6;
+    color: #2b2b2b;
+}
