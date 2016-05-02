@@ -233,3 +233,51 @@ font-size:13px; font-style:italic;}
     background-color: #e6e6e6;
     color: #2b2b2b;
 }
+
+.foot-nav {
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.foot-nav a {
+    display: block;
+    width: 20%;
+    float: left;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1em;
+    text-decoration: none;
+    outline: none;
+    color:#2b2b2b;
+    font-style:italic;
+}
+
+.foot-nav a:hover {
+    background: #fbfbfb;
+}
+
+.foot-nav a:visited {
+    color: #2b2b2b;
+}
+
+.foot-nav a:hover, .foot-nav a:focus,  .foot-nav a:active {
+    color: #808080;
+}
+
+.foot-nav a:last-child {
+    margin-right: 0px;
+}
+
+.clearfix:before,  
+ .clearfix:after {  
+  content: " ";  
+  display: table;  
+}  
+.clearfix:after {  
+  clear: both;  
+}  
+.clearfix {  
+  zoom: 1;  
+}  
