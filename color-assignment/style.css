@@ -9,6 +9,7 @@ color:#7b7576;
    
 }
 
+#container {max-width:100%; padding:1%;}
 
 
 h1 {border-radius: 25px;
@@ -40,5 +41,6 @@ img { border-radius: 100px;
     border: 1px solid #e6d4d7;
     background: #d0dfd8;
 margin: 3% auto;
+    max-width:500px; width:100%;
 }
 
