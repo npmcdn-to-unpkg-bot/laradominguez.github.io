@@ -1432,6 +1432,7 @@ border: 1px solid white;
     background-color: #fbfbfb;
     padding: 3% 0;
     margin-bottom:.7%;
+    height: auto;
 }
 
 .post-article-header h2 {
