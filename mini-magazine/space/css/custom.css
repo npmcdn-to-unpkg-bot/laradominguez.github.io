@@ -1729,7 +1729,7 @@ margin-bottom:.5em auto;
 
 
 .about-overlay:hover {
-    background-color: #e6e6e6;
+    background-color: #fff;
 }
 
 
@@ -1739,7 +1739,7 @@ margin-bottom:.5em auto;
     width: 20em;
     height: 20em;
     border-radius: 150%;
-    background: rgba(255,255,255,1);
+    background: rgba(255,255,255,.7);
 }
 
 
