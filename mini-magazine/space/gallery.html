@@ -41,7 +41,31 @@
     <script src="https://npmcdn.com/minigrid@3.0.1/dist/minigrid.min.js"></script>
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/jquery.chocolat.js"></script>
-</head>
+
+    
+      <script language="JavaScript">  
+<!-- Disable  
+function disableselect(e){  
+return false  
+}  
+
+function reEnable(){  
+return true  
+}  
+
+//if IE4+  
+document.onselectstart=new Function ("return false")  
+document.oncontextmenu=new Function ("return false")  
+//if NS6  
+if (window.sidebar){  
+document.onmousedown=disableselect  
+document.onclick=reEnable  
+}  
+//-->  
+</script>
+    
+    
+    </head>
 <body>
     
 <!-- start header -->
